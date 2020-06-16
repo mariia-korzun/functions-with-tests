@@ -2,7 +2,7 @@ const sinon = require('mocha-sinon');
 const {getSum, getQuantityPostsByAuthor, tickets} =require('../src/func');
 const {listOfPosts, listOfPosts2}=require('../src/posts');
 
-describe('TASK1. Get Sum of strings', ()=>{
+describe('TASK2. Get Sum of strings', ()=>{
   it('the sum of 2 strings should be correct', ()=>{
     expect(getSum('123', '123')).to.equal('246');
     expect(getSum('123', '100')).to.equal('223');
@@ -23,7 +23,7 @@ describe('TASK1. Get Sum of strings', ()=>{
 });
 
 
-describe('TASK2. Get Quantity of Posts By Author', ()=>{
+describe('TASK3. Get Quantity of Posts By Author', ()=>{
   it('should return a string with correct quantity of posts and comments of Rimus', ()=>{
     expect(getQuantityPostsByAuthor(listOfPosts, 'Rimus')).to.equal('Post:1,comments:3');
     expect(getQuantityPostsByAuthor(listOfPosts2, 'Rimus')).to.equal('Post:2,comments:1');
@@ -43,7 +43,7 @@ describe('TASK2. Get Quantity of Posts By Author', ()=>{
 });
 
 
-describe('TASK3. Tickets ', ()=>{
+describe('TASK1. Tickets ', ()=>{
   it(' [25, 50, 100]  The clerk does not have money to give a change', ()=>{
     expect(tickets([25, 50, 100])).to.equal('NO');
   });
