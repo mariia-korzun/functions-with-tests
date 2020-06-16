@@ -55,7 +55,8 @@ getSum(‘111111111111111111111111111111111111111111111111111’,        ’2333
 <hr>
 
 ## TASK 3
-###  Create function that gets two arguments: the first one is array of objects, the second one is string (name of author) Your function should return quantity of posts with author from argument of function and the comments with the same author. Example of array:
+###  Create function that gets two arguments: the first one is array of objects, the second one is string (name of author) 
+### Your function should return quantity of posts with author from argument of function and the quantity of all comments with the same author. Example of array:
 ### For example:
 
  
@@ -64,8 +65,8 @@ function getQuntityPostsByAuthor (listOfPosts1, 'Rimus') {
 // your code
 }
  
-result -> post: 1, comments:  3,
-If there aren’t post or comments your result will be ‘0’
+Your result should be a string like this :  'Post:1,comments:3'  ,
+If there aren’t post or comments your result will be a string like this 'Post:0,comments:0'
 ```
  
  
