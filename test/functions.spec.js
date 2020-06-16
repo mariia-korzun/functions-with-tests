@@ -44,22 +44,22 @@ describe('TASK3. Get Quantity of Posts By Author', ()=>{
 
 
 describe('TASK1. Tickets ', ()=>{
-  it(' [25, 50, 100]  The clerk does not have money to give a change', ()=>{
+  it('The clerk does not have money to give a change', ()=>{
     expect(tickets([25, 50, 100])).to.equal('NO');
   });
-  it(' [25, 50, 25, 25, 100] The clerk  has to have money to give a change', ()=>{
+  it('The clerk  has to have money to give a change', ()=>{
     expect(tickets([25, 50, 25, 25, 100])).to.equal('YES');
   });
-  it('[25, 50, 25, 50, 25, 50, 25, 100] The clerk has to have money to give a change', ()=>{
+  it('The clerk has to have money to give a change', ()=>{
     expect(tickets([25, 50, 25, 50, 25, 50, 25, 100])).to.equal('YES');
   });
-  it('[35, 25, 50, 100] The clerk does not have money to give a change', ()=>{
+  it('The clerk does not have money to give a change', ()=>{
     expect(tickets([35, 25, 50, 100])).to.equal('NO');
   });
-  it('[25, 25, 50, 50, 25, 100] The clerk has to have money to give a change', ()=>{
+  it('The clerk has to have money to give a change', ()=>{
     expect(tickets([25, 25, 50, 50, 25, 100])).to.equal('YES');
   });
-  it('[100, 25, 50] The clerk does not have money to give a change', ()=>{
+  it('The clerk does not have money to give a change', ()=>{
     expect(tickets([100,25,50])).to.equal('NO');
   });
 });
