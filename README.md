@@ -42,12 +42,14 @@ tickets([‘25’, ‘50’, ‘100’]); // 'NO'
 ###    Write a function that gets two infinite numbers as strings. You should return the result of these two numbers sum as string. Mathematical operation with these two numbers is unavailable. Don’t use BigInt.
 * 1. If your arguments are not strings of number your function should return false
 * 2. If your arguments are objects,arrays,numbers or not a string that contains only numbers, your function should return false
+* 3. If your argument is an empty string '' it should be converted into 0 
 ### For example:
 
 
 ```
 getSum({}, [])  ->  false
 getSum(‘123maxim’, ‘3coding24’)  ->  fasle
+getSum(‘’, ‘4444’)  ->  '4444'
 getSum(‘123’, ‘324’)  ->  ‘447’
 getSum(‘111111111111111111111111111111111111111111111111111’,        ’23333333333333333333333333333333333333333333333333’)
 -> ‘3444444.......4444444’
