@@ -1,4 +1,4 @@
-# Functions-with_tests
+# Functions
 
 
 1.   Inner folder structure of home task should be exactly as follows:
