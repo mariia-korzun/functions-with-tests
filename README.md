@@ -1,5 +1,5 @@
 # Functions-with_tests
-# Data structure and types
+
 
 1.   Inner folder structure of home task should be exactly as follows:
 ```
