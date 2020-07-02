@@ -39,7 +39,7 @@ tickets([‘25’, ‘50’, ‘100’]); // 'NO'
 <hr>
 
 ## TASK № 2
-###    Write a function that gets two infinite numbers as strings. You should return the result of these two numbers sum as string. Mathematical operation with these two numbers is unavailable. Don’t use BigInt.
+###    Write a function that gets two infinite numbers as strings. You should return the result of these two numbers sum as string.
 * 1. If your arguments are not strings of number your function should return false
 * 2. If your arguments are objects,arrays,numbers or not a string that contains only numbers, your function should return false
 * 3. If your argument is an empty string '' it should be converted into 0 
