@@ -1,7 +1,6 @@
 # Functions
 
-
-1.   Inner folder structure of home task should be exactly as follows:
+Inner folder structure of home task should be exactly as follows:
 ```
  
       <task folder>
@@ -12,7 +11,6 @@
 2.   Code has to be well-formatted, clean and readable.
 3.   Using ESLint is mandatory.
 ```
-
 
 ## TASK № 1
 
