@@ -15,7 +15,9 @@
 
 
 ## TASK № 1
-###The new "How to Train Your Dragon” movie has just been released!  There are a lot of people at the cinema box office standing in a huge line. Each of them has a single 100, 50 or 25 dollars bill. A "Batman v Superman: Dawn of Justice" ticket costs 25 dollars. Vasya is currently working as a clerk. He wants to sell a ticket to every single person in this line. Can Vasya sell a ticket to each person and give the change if he initially has no money and sells the tickets strictly in the order people follow in the line? Return YES, if Vasya can sell a ticket to each person and give the change. Otherwise return NO. Can Vasya sell a ticket to each person and give the change?
+
+### The new "How to Train Your Dragon” movie has just been released!  There are a lot of people at the cinema box office standing in a huge line. Each of them has a single 100, 50 or 25 dollars bill. A "Batman v Superman: Dawn of Justice" ticket costs 25 dollars. Vasya is currently working as a clerk. He wants to sell a ticket to every single person in this line. Can Vasya sell a ticket to each person and give the change if he initially has no money and sells the tickets strictly in the order people follow in the line? Return YES, if Vasya can sell a ticket to each person and give the change. Otherwise return NO. Can Vasya sell a ticket to each person and give the change?
+
 Conditions:
 * 1. @param persons queue Array
 * 2. @return String
@@ -33,19 +35,16 @@ tickets([25, 50, 100]); // 'NO'
 tickets([‘25’, ‘25’, ‘50’, ‘100’]); // 'YES'
 tickets([‘25’, ‘50’, ‘100’]); // 'NO'
 ```
-
- 
-
 <hr>
 
 ## TASK № 2
-###    Write a function that gets two infinite numbers as strings. You should return the result of these two numbers sum as string.
+
+### Write a function that gets two infinite numbers as strings. You should return the result of these two numbers sum as string.
 * 1. If your arguments are not strings of number your function should return false
 * 2. If your arguments are objects,arrays,numbers or not a string that contains only numbers, your function should return false
 * 3. If your argument is an empty string '' it should be converted into 0 
+
 ### For example:
-
-
 ```
 getSum({}, [])  ->  false
 getSum(‘123maxim’, ‘3coding24’)  ->  fasle
@@ -55,17 +54,13 @@ getSum(‘111111111111111111111111111111111111111111111111111’,        ’2333
 -> ‘3444444.......4444444’
  
 ```
-
- 
-<hr>
 <hr>
 
-## TASK 3
+## TASK № 3
 ###  Create function that gets two arguments: the first one is array of objects, the second one is string (name of author) 
 ### Your function should return quantity of posts with author from argument of function and the quantity of all comments with the same author. Example of array:
-### For example:
 
- 
+### For example:
 ```
 function getQuntityPostsByAuthor (listOfPosts1, 'Rimus') {
 // your code
@@ -74,7 +69,6 @@ function getQuntityPostsByAuthor (listOfPosts1, 'Rimus') {
 Your result should be a string like this :  'Post:1,comments:3'  ,
 If there aren’t post or comments your result will be a string like this 'Post:0,comments:0'
 ```
- 
  
 ```
 let listOfPosts2 = [
@@ -140,10 +134,6 @@ let listOfPosts2 = [
 ]
 ```
 
- 
-
-
-
 ## * Don`t change the given functions naming and don't delete this part of code:
 ```
 module.exports = {
@@ -152,7 +142,6 @@ module.exports = {
 };
 ```
 
- 
 - Useful links:
 -  
 - :black_small_square:         https://learn.javascript.ru/function-basics
