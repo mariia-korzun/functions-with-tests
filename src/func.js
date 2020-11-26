@@ -8,8 +8,7 @@ const getSum = (str1, str2) => {
 const getQuantityPostsByAuthor = (listOfPosts, authorName) => {
   let posts = listOfPosts.filter(post => post.author === authorName).length
   let comment = listOfPosts.reduce((sum, post) => {
-    return sum += post.comments === undefined ? 0 :
-      post.comments.filter(comment => comment.author === authorName).length
+    return sum + (post.comments === undefined ? 0 : post.comments.filter(comment => comment.author === authorName).length)
   }, 0)
 
   return `Post:${posts},comments:${comment}`
